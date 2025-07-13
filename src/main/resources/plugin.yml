@@ -1,0 +1,20 @@
+name: StopEnderThief
+version: '0.1.0'
+main: com.miaomc.stopEnderThief.StopEnderThief
+api-version: '1.18'
+prefix: StopEnderThief
+authors: [ KumaKorin ]
+description: A plugin that prevent enderman pick up blocks
+website: https://korin.im
+
+commands:
+  enderthief:
+    description: StopEnderThief plugin commands
+    usage: /<command> [reload|enable|disable]
+    permission: miaomc.stopenderthief.admin
+    aliases: [ set, stet ]
+
+permissions:
+  stopenderthief.admin:
+    description: Allow access to StopEnderThief admin commands
+    default: op
